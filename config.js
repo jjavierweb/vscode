@@ -1,20 +1,24 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
   "files.autoSave": "onFocusChange",
   "editor.minimap.enabled": true,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "prettier.singleQuote": true,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#333333",
-    "statusBar.noFolderBackground": "#333333",
-    "statusBar.debuggingBackground": "#263238"
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
   },
-  "workbench.iconTheme": "vscode-icons",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javascript": "html"
+  },
   "css.validate": false,
   "scss.validate": false,
   "less.validate": false,
   "editor.wordWrap": "on",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "html-css-class-completion.enableEmmetSupport": true
 }
