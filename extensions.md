@@ -11,3 +11,5 @@
 10. npm
 11. npm intellisense
 12. git history
+13. Bracket pair colorized
+14. Javascript EJS6 Code snippets
