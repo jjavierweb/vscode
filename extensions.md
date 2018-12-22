@@ -8,3 +8,6 @@
 7. Path IntelliSense
 8. Prettier - Code Formatter
 9. VSCode-icons
+10. npm
+11. npm intellisense
+12. git history
