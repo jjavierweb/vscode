@@ -1,0 +1,82 @@
+{
+    // Editor
+    "editor.defaultFormatter": null,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.fontLigatures": true,
+    "editor.matchBrackets": "never",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": true
+    },
+    // Files
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    
+    // Live SASS Compiler
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist"
+        }
+    ],
+    // Markdown
+    // Languages
+    // HTML
+    "html.format.indentInnerHtml": true,
+    // Javascript
+    "javascript.autoClosingTags": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    
+    // Emmet
+    "emmet.includeLanguages": {
+        "jinja-html": "html",
+        "aspnetcorerazor": "html"
+    },
+    
+    "gitlens.defaultDateFormat": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'JetbrainsMono NF',Consolas, 'Courier New', monospace, 'MesloLGS NF'",
+    "redhat.telemetry.enabled": true,
+    
+    "diffEditor.ignoreTrimWhitespace": false,
+    // Disable Telemetry
+    "telemetry.telemetryLevel": "off",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    // Enable Native Bracket Pair Colorizer
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "workbench.productIconTheme": "fluent-icons",
+    "git.confirmSync": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "both",
+    "workbench.editSessions.autoResume": "onReload",
+    "editor.stickyScroll.enabled": true,
+    "tailwindCSS.includeLanguages": {
+        "[plaintext]": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabCompletion": "onlySnippets"
+}
